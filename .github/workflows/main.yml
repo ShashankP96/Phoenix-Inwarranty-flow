@@ -66,5 +66,3 @@ jobs:
                 Hello Team,
                 Phoenix Inwarranty flow Postman collection has been executed.
                 URL: https://shashankp96.github.io/Phoenix-Inwarranty-flow/
-
-          attachments: newman/index.html
