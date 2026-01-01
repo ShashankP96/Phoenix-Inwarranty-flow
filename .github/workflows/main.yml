@@ -5,10 +5,10 @@ on:
     branches:
       - main
   workflow_dispatch:
-  schedule:
-    - cron : 30 02 * * * # 8am IST
-    - cron : 00 14 * * * # 7:30pm IST
-    - cron : 00 06 * * 1-5 # 11:30 am Mon to Fri
+  #schedule:
+  #  - cron : 30 02 * * * # 8am IST
+  #  - cron : 00 14 * * * # 7:30pm IST
+  #  - cron : 00 06 * * 1-5 # 11:30 am Mon to Fri
 
 jobs:
   run-postman-tests:
